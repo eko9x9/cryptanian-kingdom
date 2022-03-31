@@ -38,7 +38,7 @@ const Faq = () => {
 
         <div className="type">
 
-            <h2 className="t-c">The Four Kingdoms...For Now, At Least!</h2>
+            <h2 className="t-c">The Five Kingdoms...For Now, At Least!</h2>
             <div className="type-inner">
                 <div className="grid-inner-2">
                     <div className="img-inner">

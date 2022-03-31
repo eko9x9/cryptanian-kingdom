@@ -68,13 +68,10 @@
 .sidebar {
     height: 100%;
     position: fixed;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #2f36f1;
+    background-color: #40428E;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -108,7 +105,7 @@
 .openbtn {
     cursor: pointer;
     background-color: #40428E;
-    color: white;
+    color: #ffff !important;
     padding: 10px 15px;
     border: none;
     font-weight: bold;

@@ -51,7 +51,7 @@ const Navbar = () => {
                             </a>
                         </li>
                     </ul>
-
+                    
                     <ul>
                         <li>
                            <button className="openbtn" onClick={() => setisSidebarOpen(true)}>☰</button>
