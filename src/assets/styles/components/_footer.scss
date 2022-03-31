@@ -1,0 +1,29 @@
+.footer {
+    height: 40vh;
+    background-color: #39E27D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .socmed {
+        ul {
+            display: flex;
+
+            li {
+                padding: 0px 20px;
+            }
+        }
+
+        a {
+            color: #ffff;
+            font-size: 1.8rem;
+        }
+    }
+
+    .copyright {
+        color: #fff;
+
+        margin-top: 20px;
+    }
+}

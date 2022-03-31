@@ -1,0 +1,277 @@
+.intro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    @include respond(phone){
+        height: 90vh;
+    }
+
+    @include respond(max-950){
+        height: 90vh;
+    }
+
+    .grid-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1200px;
+        overflow: hidden;
+        margin: 0 auto;
+        align-items: center;
+        font-family: 'Roboto Mono';
+        column-gap: 100px;
+        
+        @include respond(phone){
+            max-width: 80vw;
+        }
+        
+        @include respond(max-950){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @include respond(phone){
+            .image {
+                height: auto;
+                width: 300px;
+                
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        
+        .text {
+            text-align: left;
+
+            @include respond(max-950){
+                h3 {
+                    font-size: 2rem !important;;
+                }
+                
+                p {
+                    font-size: 1.4rem !important;
+                }
+            }
+            
+            @include respond(max-700){
+                h3 {
+                    font-size: 1.6rem !important;
+                }
+
+                p {
+                    font-size: 1.2rem !important;
+                }
+            }
+
+            h3 {
+                font-size: 2.5rem;
+                font-weight: bold;
+                padding: 10px 0px;
+            }
+        
+            p {
+                padding: 15px 0px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+.how-get {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #00E6CF;
+
+    @include respond(phone){
+        height: 90vh;
+    }
+
+    @include respond(max-950){
+        height: 90vh;
+    }
+
+
+    .grid-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1200px;
+        overflow: hidden;
+        margin: 0 auto;
+        align-items: center;
+        font-family: 'Roboto Mono';
+        column-gap: 100px;
+        
+        @include respond(phone){
+            max-width: 80vw;
+        }
+
+        @include respond(max-950){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @include respond(phone){
+            .image {
+                height: auto;
+                width: 300px;
+                
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+        .text {
+            text-align: left;
+
+            @include respond(max-950){
+                h3 {
+                    font-size: 2rem !important;;
+                }
+                
+                p {
+                    font-size: 1.4rem !important;
+                }
+            }
+            
+            @include respond(max-700){
+                h3 {
+                    font-size: 1.6rem !important;
+                }
+
+                p {
+                    font-size: 1.2rem !important;
+                }
+            }
+        
+            h3 {
+                font-size: 2.5rem;
+                font-weight: bold;
+                padding: 10px 0px;
+            }
+        
+            p {
+                padding: 15px 0px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+
+.type {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    height: 200vh;
+
+    @include respond(phone){
+        height: 150vh !important;
+    }
+
+    @include respond(max-950){
+        height: 120vh !important;
+    }
+
+    @include respond(tab-port){
+        h3 {
+            font-size: 1rem !important;
+        }
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        @include respond(max-950){
+            font-size: 2rem;
+        }
+
+        @include respond(phone){
+            font-size: 1.7rem;
+        }
+    }
+
+    .grid-inner-2 {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        max-width: 800px;
+        overflow: hidden;
+        margin: 0 auto;
+        align-items: center;
+        font-family: 'Roboto Mono';
+
+        .img-inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+            h3 {
+                font-size: 1.8rem;
+            }
+        }
+
+        .planet-img {
+            height: 100%;
+            width: 100%;
+            
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .grid-inner-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        max-width: 1200px;
+        overflow: hidden;
+        margin: 0 auto;
+        align-items: center;
+        font-family: 'Roboto Mono';
+        
+        @include respond(max-1200){
+            grid-template-columns: repeat(2, 1fr);
+            @include grid-center-last(2);
+            max-width: 800px;
+        }
+
+        .img-inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h3 {
+                font-size: 1.8rem;
+            }
+
+        }
+        
+        .planet-img {
+            height: 100%;
+            width: 100%;
+            
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        
+    }
+}
