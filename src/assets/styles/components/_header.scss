@@ -20,6 +20,7 @@
         border: none;
         background-color: rgb(250, 209, 33);
         font-weight: bold;
+        cursor: pointer;
 
         @include respond(max-450){
             padding: 10px 100px;

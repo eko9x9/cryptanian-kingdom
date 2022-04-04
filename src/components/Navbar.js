@@ -30,7 +30,9 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#">Team</a>
+                            <a href="#">
+                                <Link to="/team">Team</Link>
+                            </a>
                         </li>
                     </ul>
 
@@ -60,7 +62,7 @@ const Navbar = () => {
 								<a onClick={() => setisSidebarOpen(false)} className="closebtn">×</a>
 								<a href="#"><Link to="/roadmap">Roadmap</Link></a>
 								<a href="#"><Link to="/faq">Faqs</Link></a>
-								<a href="#"><Link to="#">The Team</Link></a>
+								<a href="#"><Link to="/team">The Team</Link></a>
 						    </div>
                         </li>
                     </ul>

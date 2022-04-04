@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     overflow: hidden;
+    background-color: #96C8D3;
 
     @include respond(phone){
         height: 90vh;
@@ -35,7 +36,7 @@
         @include respond(phone){
             .image {
                 height: auto;
-                width: 300px;
+                width: 250px;
                 
                 img {
                     width: 100%;
@@ -86,7 +87,7 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    background-color: #00E6CF;
+    background-color: #E5E5E5;
 
     @include respond(phone){
         height: 90vh;
@@ -120,7 +121,7 @@
         @include respond(phone){
             .image {
                 height: auto;
-                width: 300px;
+                width: 250px;
                 
                 img {
                     width: 100%;
@@ -175,13 +176,15 @@
     overflow: hidden;
     flex-direction: column;
     height: 200vh;
+    
+    background-color: #96C8D3;
 
     @include respond(phone){
-        height: 150vh !important;
+        height: 120vh !important;
     }
 
     @include respond(max-950){
-        height: 130vh !important;
+        height: 200vh;
     }
 
     @include respond(tab-port){

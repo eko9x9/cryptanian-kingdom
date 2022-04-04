@@ -1,4 +1,6 @@
 .faq {
+    margin-bottom: 100px;
+    
     h1 {
         font-size: 3rem;
 
@@ -24,8 +26,5 @@
 
     .text-content{
         padding-top: 30px;
-        &:last-child {
-            padding-bottom: 50px;
-        }
     }
 }
