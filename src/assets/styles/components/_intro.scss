@@ -42,7 +42,7 @@
 
             @include respond(phone){
                 height: auto;
-                width: 200px;
+                width: 200px !important;
             }
 
             @include respond(max-950){
@@ -132,7 +132,7 @@
             }
             @include respond(phone){
                 height: auto;
-                width: 200px;
+                width: 200px !important;
             }
 
             @include respond(max-950){
