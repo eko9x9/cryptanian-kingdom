@@ -4,6 +4,7 @@
     align-items: center;
     overflow: hidden;
     background-color: #96C8D3;
+    color: #fff;
 
     @include respond(phone){
         height: 90vh;
@@ -33,15 +34,20 @@
             justify-content: center;
         }
 
-        @include respond(phone){
-            .image {
+        .image {
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            @include respond(phone){
                 height: auto;
                 width: 200px;
-                
-                img {
-                    width: 100%;
-                    height: auto;
-                }
+            }
+
+            @include respond(max-950){
+                height: auto;
+                width: 300px;
             }
         }
         
@@ -87,6 +93,7 @@
     display: flex;
     align-items: center;
     overflow: hidden;
+    color: #fff;
     background-color: #7790DA;
 
     @include respond(phone){
@@ -118,15 +125,19 @@
             justify-content: center;
         }
 
-        @include respond(phone){
-            .image {
+        .image {
+            img {
+                width: 100%;
+                height: auto;
+            }
+            @include respond(phone){
                 height: auto;
                 width: 200px;
-                
-                img {
-                    width: 100%;
-                    height: auto;
-                }
+            }
+
+            @include respond(max-950){
+                height: auto;
+                width: 300px;
             }
         }
 
@@ -176,6 +187,7 @@
     overflow: hidden;
     flex-direction: column;
     height: 200vh;
+    color: #fff;
     
     background-color: #96C8D3;
 
